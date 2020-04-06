@@ -1,0 +1,54 @@
+{% extends "base_layout.html"%} {% block bodyContent %}
+<nav class="navbar navbar-expand-lg navbar-dark pb-1" style="background-color: #424242;" >
+  <a class="navbar-brand" href="{{ url_for('home') }}" style="font-size: 3vw !important;" >
+    <img src="{{ url_for('static',filename='images/logo.png')}}" width="140" height="80" class="d-inline-block align-top" alt="" />
+    Grp.103: Multi-Label Image Classification
+  </a>
+</nav>
+<div class="row">
+  {% if form %}
+  <div class="col text-center">
+    <form action = "" method = "POST" enctype="multipart/form-data">
+      {{ form.hidden_tag() }}
+      <div class="form-group">
+        <h5 class="">Choose an image to upload</h5>
+        <div>
+          <label for="image">
+            <img class="img-fluid" src="{{ url_for('static',filename='images/upload.png')}}"/>
+          </label>
+          {{ form.image(style="display: none;")}}
+        </div>
+      </div>
+        {{ form.predict(class="btn btn-info") }}
+    </form>
+  </div>
+
+  {% else %}
+  <div class="col-8">
+    <img src="{{ url_for('static',filename=imagePath)}}" class="img-fluid pt-4" alt="Uploaded Image"><br><br>
+    <h6 class="text-center">{{ imagePath }}</h6>
+  </div>
+  <div class="col-4">
+    <h5 class="text-center">Classification Confidence Score</h5>
+    <table class="table table-dark text-center">
+      <thead>
+        <tr>
+          <th scope="col">Class</th>
+          <th scope="col">Percentage %</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for i in range(preds|length) %}
+        <tr>
+          <td>{{ classes[i] }}</td>
+          <td>{{ preds[i] }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+ 
+</div>
+
+{% endblock bodyContent %}
