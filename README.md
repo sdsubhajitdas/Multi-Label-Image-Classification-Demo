@@ -47,7 +47,7 @@ Some of the results are below. Click to see the outputs.<br>
 <details><summary>Output 2</summary>
 <p>
 
-![Output 1](screenshots/4.jpg)
+![Output 2](screenshots/4.jpg)
 
 </p>
 </details>
@@ -55,7 +55,7 @@ Some of the results are below. Click to see the outputs.<br>
 <details><summary>Output 3</summary>
 <p>
 
-![Output 1](screenshots/5.jpg)
+![Output 3](screenshots/5.jpg)
 
 </p>
 </details>
@@ -63,7 +63,7 @@ Some of the results are below. Click to see the outputs.<br>
 <details><summary>Output 4</summary>
 <p>
 
-![Output 1](screenshots/6.jpg)
+![Output 4](screenshots/6.jpg)
 
 </p>
 </details>
@@ -71,15 +71,7 @@ Some of the results are below. Click to see the outputs.<br>
 <details><summary>Output 5</summary>
 <p>
 
-![Output 1](screenshots/7.jpg)
-
-</p>
-</details>
-
-<details><summary>Output 5</summary>
-<p>
-
-![Output 1](screenshots/7.jpg)
+![Output 5](screenshots/7.jpg)
 
 </p>
 </details>
@@ -87,7 +79,7 @@ Some of the results are below. Click to see the outputs.<br>
 <details><summary>Output 6</summary>
 <p>
 
-![Output 1](screenshots/8.jpg)
+![Output 6](screenshots/8.jpg)
 
 </p>
 </details>
@@ -95,7 +87,7 @@ Some of the results are below. Click to see the outputs.<br>
 <details><summary>Output 7</summary>
 <p>
 
-![Output 1](screenshots/9.jpg)
+![Output 7](screenshots/9.jpg)
 
 </p>
 </details>
