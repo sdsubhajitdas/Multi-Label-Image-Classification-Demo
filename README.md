@@ -7,7 +7,7 @@ You need to have `python3` and `pip3` in your system.
 ### Installing
 - First clone the project
   ```
-  git clone https://github.com/sdsubhajitdas/Final-Year-Project-Demo.git
+  git clone https://github.com/sdsubhajitdas/Multi-Label-Image-Classification-Demo.git
   ```
 - (Optional) If you like you can use virtualenv to create a private environment and then activate it.
 - Installing the required packages.
