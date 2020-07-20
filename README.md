@@ -26,7 +26,7 @@ You need to have `python3` and `pip3` in your system.
 - Copy the url shown in the terminal and open in your browser. You will be greeted with a page like this.
   ![Homepage](screenshots/2.jpg)
 
-### Outputs
+## Outputs
 Our demo can identify 20 different classes of objects. Below are the following classes.
 ```
 Aeroplane, Bicycle, Bird, Boat, Bottle, Bus, Car, Cat, Chair, Cow, Dining Table,
@@ -99,3 +99,15 @@ Some of the results are below. Click to see the outputs.<br>
 
 </p>
 </details>
+
+## Contributors
+
+- [Adrika Nandi](https://www.linkedin.com/in/adrika-nandi-91961015b/)
+- [Angana Bose](https://www.linkedin.com/in/angana-bose-4b0a10143/)
+- [Debolina Lahiri](https://www.facebook.com/debolina.lahiri.73)
+- [Ishani Banerjee](https://www.facebook.com/rimi.banerjee.54390)
+- [Subhajit Das](https://sdsubhajitdas.github.io/)
+- [Urmila Saha](https://www.facebook.com/urmila.saha.790)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
