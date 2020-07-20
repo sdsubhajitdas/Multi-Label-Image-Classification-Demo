@@ -50,7 +50,7 @@ def home():
             if form.image.data != None:
                 imageName = saveUploadImage(form.image.data)
                 predictions = generatePredictions(imageName)
-                classes, preds = filterByThreshold(CLASSES,predictions)
+                classes, preds = filterByThreshold(CLASSES,predictions,75)
 
             return render_template("index.html",imagePath=f"demo_images/{imageName}",classes=classes, preds=preds)
 
